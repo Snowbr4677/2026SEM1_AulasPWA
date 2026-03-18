@@ -1,0 +1,75 @@
+section{
+    border: 2px solid rgb(255, 0, 119);
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    margin: 100px;
+    padding: 30px;
+}
+
+form,.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: fffcbdb;
+    padding: 20px;  
+    border-radius: 5px;
+    max-width: 500px;
+    margin:auto;
+    border: 2px solid #f79db8;
+    
+}   
+label{
+    display:block;
+    border-collapse: collapse;}
+    
+    button, .button{
+    border-radius: 5px;
+    background-color: #f1f5f8;
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor:pointer;
+    border: solide 1 px;
+    border: 2px solid #f79db8;
+}
+
+button:hover{
+    background-color: #f500d4;
+}
+
+.termos{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    accent-color: #f79db8;
+}
+#sumario{
+    margin-left: 40%;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+#sumario li{
+    margin: 5px;
+    padding: 5px;
+    width: 80px;
+    border: 1px solid #882155;
+    border-radius: 5px;
+    background-color: #ff8cd3;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+img{
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
